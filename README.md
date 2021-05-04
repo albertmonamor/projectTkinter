@@ -1,1 +1,5 @@
-coming soon
+
+========== SERVER =========
+
+in short
+
