@@ -1,4 +1,4 @@
-import ctypes  # // מכיל בתוכו את import os
+import ctypes  
 from random import randint
 
 from socket import *
