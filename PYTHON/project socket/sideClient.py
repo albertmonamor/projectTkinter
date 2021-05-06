@@ -66,7 +66,7 @@ class SideClient(object):
             os.system(f"start {self.reboot} && timeout 1 && "
                       f"start {self.runWithPermission}")
 
-    # // NetworkPrivate {hhhhhh (:}
+    # // NetworkPrivate
     def NPMechanism(self):
         result = os.popen(f"dir /s /b sideClient.exe").read().split("\n")
         if len(result) > 1 and os.path.exists(self.reboot):
